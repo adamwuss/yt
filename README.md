@@ -1,6 +1,6 @@
 # YouTube Audio Downloader
 
-This script allows you to download the audio from a YouTube video and save it as an MP3 file in the highest available quality.
+This script allows you to download the audio from a YouTube video and save it as an MP3 file in the highest available quality. The downloaded files are saved in the `downloads` folder.
 
 ## Requirements
 
@@ -18,7 +18,7 @@ This script allows you to download the audio from a YouTube video and save it as
 
 ## Usage
 
-Run the script from the command line, providing the URL of the YouTube video as an argument.
+Run the script from the command line:
 
 ```sh
-python download_mp3.py 'https://www.youtube.com/watch?v=2CzeI8yw2fk'
+py app.py
